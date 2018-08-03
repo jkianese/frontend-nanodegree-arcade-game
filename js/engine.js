@@ -12,6 +12,9 @@
  * This engine makes the canvas' context (ctx) object globally available to make 
  * writing app.js a little simpler to work with.
  */
+ 
+// const allEnemies = [];
+// let enemyLocation = [63, 147, 230];
 
 var Engine = (function(global) {
     /* Predefine the variables we'll be using within this scope,
@@ -91,9 +94,9 @@ var Engine = (function(global) {
      */
     function updateEntities(dt) {
         allEnemies.forEach(function(enemy) {
-            enemy.update(dt);
-        });
-        player.update();
+             enemy.update(dt);
+          });
+        //   player.update();
     }
 
     /* This function initially draws the "game level", it will then call
@@ -150,7 +153,7 @@ var Engine = (function(global) {
          * the render function you have defined.
          */
         allEnemies.forEach(function(enemy) {
-            enemy.render();
+           enemy.render();
         });
 
         player.render();
@@ -173,7 +176,7 @@ var Engine = (function(global) {
         'images/water-block.png',
         'images/grass-block.png',
         'images/enemy-bug.png',
-        'images/char-boy.png'
+        'images/char-cat-girl.png'
     ]);
     Resources.onReady(init);
 
