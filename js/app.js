@@ -1,17 +1,20 @@
 // Enemies our player must avoid
-const Enemy = function(x, y, speed) { // Variables applied to each of our instances go here,
+// Variables applied to each of our instances go here,
+const Enemy = function(x, y, speed) { 
     this.x = x;
     this.y = y;
     this.speed = 100 + Math.random() * 222; // random speed to start
-    this.sprite = 'images/enemy-bug.png'; // The image/sprite for our enemies, this uses a helper we've provided to easily load images
+    // The image/sprite for our enemies, this uses a helper we've provided to easily load images
+    this.sprite = 'images/enemy-bug.png'; 
 };
-
-Enemy.prototype.update = function(dt) { // Update the enemy's position, required method for game Parameter: dt, a time delta between ticks
-    this.x += this.speed * dt; // You should multiply any movement by the dt parameter which will ensure the game runs at the same speed for all computers.
-
+// Update the enemy's position, 
+// required method for game Parameter: dt, a time delta between ticks
+// You should multiply any movement by the dt parameter which will ensure the game runs at the same speed for all computers.
+Enemy.prototype.update = function(dt) { 
+    this.x += Math.floor(this.speed * dt); 
     if (this.x > 500) {
         this.x = -50;
-        this.speed = 100 + Math.random() * 222
+        this.speed = 100 + Math.random() * 222; 
     }
     // collision with bug, player goes back to starting point
     if (player.x < this.x + 80 && 
