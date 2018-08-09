@@ -1,3 +1,13 @@
+How to Play:
+
+Move your character to the top and don't hit any bugs. That's it!
+
+If you do hit a bug, fear not my friend, you just go back to start and try again. You have unlimited chances (for now). 
+
+I plan to add more functionality, such as the ability to allow the user to select his or her own character, random gems and other items to collect, rocks to avoid, a scoring system, a game end/reset, and maybe even a clock. For now, it's about as basic as it gets.
+
+
+
 frontend-nanodegree-arcade-game
 ===============================
 
