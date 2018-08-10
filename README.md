@@ -23,5 +23,5 @@ Resources:
   Matt Crawford's Walkthrough Series
     <br>https://matthewcranford.com/arcade-game-walkthrough-part-1-starter-code-breakdown/
 
-  Ben Cunningham
-    <br>https://www.youtube.com/watch?v=7PHhRrjgTDA
+  Grow with Google FEND Resources
+    <br>https://www.diigo.com/outliner/fj3m65/Udacity-Classic-Arcade-Game-Project-(project-%233)?key=al7ek43dms
