@@ -1,6 +1,6 @@
 // Enemies our player must avoid
 // Variables applied to each of our instances go here,
-const Enemy = function(x, y, speed) { 
+const Enemy = function(x, y) { 
     this.x = x;
     this.y = y;
     this.speed = 100 + Math.random() * 222; // random speed to start
@@ -36,7 +36,7 @@ class Player {
     constructor() {
     this.x = 202;
     this.y = 405; 
-    this.player = 'images/char-cat-girl.png'; 
+    this.sprite = 'images/char-cat-girl.png'; 
     }
 // This class requires an update(), render() and
 // a handleInput() method.
@@ -44,7 +44,7 @@ class Player {
 
     }
     render() {
-        ctx.drawImage(Resources.get(this.player), this.x, this.y);
+        ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
     }
     handleInput(keyPress) {
         if (keyPress == 'left' && this.x > 0) {
@@ -77,7 +77,7 @@ const enemyLocation = [63, 147, 230];
 
 
 enemyLocation.forEach(function (locationY) {
-    enemy = new Enemy(0, locationY, 200);
+    enemy = new Enemy(0, locationY);
     allEnemies.push(enemy);
 });
 
