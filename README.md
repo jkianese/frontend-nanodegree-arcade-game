@@ -19,3 +19,9 @@ How to Play:
 5.	Have fun!
 
 Resources:
+
+  Matt Crawford's Walkthrough Series
+    <br>https://matthewcranford.com/arcade-game-walkthrough-part-1-starter-code-breakdown/
+
+  Ben Cunningham
+    <br>https://www.youtube.com/watch?v=7PHhRrjgTDA
