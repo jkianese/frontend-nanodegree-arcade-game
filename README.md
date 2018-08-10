@@ -20,7 +20,7 @@ How to Play:
 
 Resources:
 
-    Ben Cunningham
+    Matt Crawford
+        https://matthewcranford.com/arcade-game-walkthrough-part-1-starter-code-breakdown/
+    Ben Cunninghan
         https://www.youtube.com/watch?v=7PHhRrjgTDA
-    Matthew Crawford Arcade Game Walkthrough series
-        https://matthewcranford.com/arcade-game-walkthrough-part-1-starter-code-breakdown/ 
